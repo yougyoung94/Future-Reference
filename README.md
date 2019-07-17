@@ -5,6 +5,7 @@ https://yoyoinwanderland.github.io/CV-Applications/
 
 ## Some Useful Bigquery
 1. BigQuery: Delete element in nested struct
+
 reference: https://stackoverflow.com/questions/47707076/how-to-delete-update-nested-data-in-bigquery
 
 - Original: described in json(?) format
