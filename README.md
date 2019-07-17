@@ -27,7 +27,8 @@ Column Name: Original
 ```
 - Query
 ```
-SELECT 
+UPDATE table
+SET Original = 
   array(
     SELECT AS STRUCT
       key, STRUCT(a, b, c) value
@@ -43,12 +44,12 @@ SELECT
           value.c
         FROM UNNEST(Original)
         )
-    ) OriginalUpdate,
-FROM table
+    )
+WHERE TRUE
 ```
 - Output
 
-Column Name: OriginalUpdate
+Column Name: Original
 ```
 [{
   "key": "A",
