@@ -9,6 +9,7 @@ https://yoyoinwanderland.github.io/CV-Applications/
 reference: https://stackoverflow.com/questions/47707076/how-to-delete-update-nested-data-in-bigquery
 
 - Original: described in json(?) format
+
 Column Name: Original
 ```
 [{
@@ -46,6 +47,7 @@ SELECT
 FROM table
 ```
 - Output
+
 Column Name: OriginalUpdate
 ```
 [{
